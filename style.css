@@ -134,16 +134,14 @@ input[type=submit]:hover {
 
 .main-btn {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 0.5rem;
     border:none;
-    background: transparent;
-    position: relative;
     margin: 2rem auto;
     border: 0;
     border-bottom: 2px solid var(--moderate-cyan);
     padding-bottom: 0.5rem;
+    width: 170px;
     transition: 0.5s;
 }
 
@@ -241,8 +239,9 @@ footer {
     text-align: center;
 }
 
-.social > a > i:hover {
+.social > i:hover {
     color: var(--bright-blue);
+    cursor: pointer;
 }
 
 #email-error {
